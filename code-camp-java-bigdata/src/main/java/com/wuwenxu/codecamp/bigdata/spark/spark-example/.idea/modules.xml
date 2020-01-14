@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/scala-spark/scala-spark.iml" filepath="$PROJECT_DIR$/scala-spark/scala-spark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark-core/spark-core.iml" filepath="$PROJECT_DIR$/spark-core/spark-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spark-example.iml" filepath="$PROJECT_DIR$/.idea/spark-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark-streaming/spark-streaming.iml" filepath="$PROJECT_DIR$/spark-streaming/spark-streaming.iml" />
+    </modules>
+  </component>
+</project>
