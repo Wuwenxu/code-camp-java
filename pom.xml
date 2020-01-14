@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
+        <modelVersion>4.0.0</modelVersion>
+        <groupId>com.wuwenxu.codecamp</groupId>
+        <artifactId>code-camp-java</artifactId>
+        <packaging>pom</packaging>
+        <version>1.0.0-SNAPSHOT</version>
+
+        <modules>
+            <module>code-camp-java-base</module>
+            <module>code-camp-java-bigdata</module>
+            <module>code-camp-java-cloud</module>
+            <module>code-camp-java-util</module>
+        </modules>
+
+        <properties>
+            <maven.compiler.source>1.8</maven.compiler.source>
+            <maven.compiler.target>1.8</maven.compiler.target>
+            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+            <spring-boot.version>2.1.0.RELEASE</spring-boot.version>
+            <spring-cloud.version>Camden.SR3</spring-cloud.version>
+            <mybatis-starter.version>1.3.0</mybatis-starter.version>
+            <mysql-connector-java.version>5.1.6</mysql-connector-java.version>
+            <alibaba-fastjson.version>1.2.60</alibaba-fastjson.version>
+            <alibaba-druid.version>1.1.12</alibaba-druid.version>
+            <google-protobuf.version>3.6.0</google-protobuf.version>
+            <caucho-hessian.version>4.0.38</caucho-hessian.version>
+        </properties>
+
+        <developers>
+            <developer>
+                <name>武文旭</name>
+                <email>13731169513@@163.com</email>
+                <url>头条、微信、哔哩哔哩-搜索:程序员架构师13</url>
+                <roles>
+                    <role>开发人员</role>
+                </roles>
+            </developer>
+        </developers>
+
+
+        <dependencies>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <exclusions>
+                    <exclusion>
+                        <groupId>ch.qos.logback</groupId>
+                        <artifactId>logback-classic</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-actuator</artifactId>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-thymeleaf</artifactId>
+                <exclusions>
+                    <exclusion>
+                        <groupId>ch.qos.logback</groupId>
+                        <artifactId>logback-classic</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <!--dev tools -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-devtools</artifactId>
+                <optional>true</optional>
+            </dependency>
+
+            <!--test -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+            </dependency>
+
+        </dependencies>
+
+
+        <dependencyManagement>
+            <dependencies>
+
+                <dependency>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-dependencies</artifactId>
+                    <version>${spring-boot.version}</version>
+                    <type>pom</type>
+                    <scope>import</scope>
+                </dependency>
+
+                <dependency>
+                    <groupId>org.springframework.cloud</groupId>
+                    <artifactId>spring-cloud-dependencies</artifactId>
+                    <version>${spring-cloud.version}</version>
+                    <type>pom</type>
+                    <scope>import</scope>
+                </dependency>
+
+                <dependency>
+                    <groupId>org.mybatis.spring.boot</groupId>
+                    <artifactId>mybatis-spring-boot-starter</artifactId>
+                    <version>${mybatis-starter.version}</version>
+                </dependency>
+
+                <dependency>
+                    <groupId>com.alibaba</groupId>
+                    <artifactId>fastjson</artifactId>
+                    <version>${alibaba-fastjson.version}</version>
+                </dependency>
+
+                <dependency>
+                    <groupId>com.alibaba</groupId>
+                    <artifactId>druid</artifactId>
+                    <version>${alibaba-druid.version}</version>
+                </dependency>
+
+                <dependency>
+                    <groupId>com.google.protobuf</groupId>
+                    <artifactId>protobuf-java</artifactId>
+                    <version>${google-protobuf.version}</version>
+                </dependency>
+
+                <dependency>
+                    <groupId>com.caucho</groupId>
+                    <artifactId>hessian</artifactId>
+                    <version>${caucho-hessian.version}</version>
+                </dependency>
+
+                <dependency>
+                    <groupId>mysql</groupId>
+                    <artifactId>mysql-connector-java</artifactId>
+                    <version>${mysql-connector-java.version}</version>
+                </dependency>
+
+            </dependencies>
+        </dependencyManagement>
+
+        <distributionManagement>
+            <repository>
+                <id>releases</id>
+                <url>http://mvnrepo.alibaba-inc.com/mvn/releases</url>
+            </repository>
+            <snapshotRepository>
+                <id>snapshots</id>
+                <url>http://mvnrepo.alibaba-inc.com/mvn/snapshots</url>
+            </snapshotRepository>
+        </distributionManagement>
+
+</project>
