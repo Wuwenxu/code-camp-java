@@ -1,4 +1,4 @@
-﻿package com.silence.util;
+﻿package com.wuwenxu.codecamp.util.net;
 
 import java.io.BufferedReader;
 import java.io.File;

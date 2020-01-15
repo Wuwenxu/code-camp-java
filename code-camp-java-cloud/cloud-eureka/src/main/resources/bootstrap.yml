@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: cloud-eureka-server
+  profiles: 
+    active: dev
+server:
+  port: 8500
+
+eureka:
+  datacenter: WEST-CITY-BRAIN-DC
+  environment: DEV
+  instance:
+    appname: ${spring.application.name}
+    hostname: localhost
+    namespace: eureka
+    instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${server.port}
+    prefer-ip-address: true
+      
+      
+  dashboard:
+    enabled: true
+    path: /ek-ui
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/${eureka.instance.namespace}/ 
+
+---
+spring:
+  profiles: dev
+   
+---
+spring:
+  profiles: prod
+eureka:
+  environment: PROD
+server:
+  port: 9050      

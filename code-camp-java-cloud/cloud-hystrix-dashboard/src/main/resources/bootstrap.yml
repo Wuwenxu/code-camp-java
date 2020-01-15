@@ -1,0 +1,48 @@
+spring:
+  application:
+    name: xcube-hystrix-dashboard
+  profiles: 
+    active: dev
+  cloud:
+    config:
+      discovery:
+        service-id: XCUBE-CONFIG-SERVER
+        enabled: false
+      enabled: false
+      name: xcube-hystrix-dashboard
+      fail-fast: true
+  rabbitmq:
+    host: localhost
+    port: 5673
+    username: guest
+    password: guest
+    
+eureka:
+  instance:
+    appname: ${spring.application.name}
+    hostname: localhost
+    instance-id: ${spring.application.name}:localhost:${server.port}
+    prefer-ip-address: true
+  client:
+    enabled: true
+    service-url: 
+      defaultZone: http://localhost:8050/eureka/
+
+turbine: 
+  app-config: TEST-APP1
+  combine-host-port: false
+  #must in format of new String("bulabula...")
+  cluster-name-expression: new String("default")   
+server:
+  compression:
+    enabled: true
+  port: 8090
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*' 
+        
+info:
+  version: 1.0.0.0   

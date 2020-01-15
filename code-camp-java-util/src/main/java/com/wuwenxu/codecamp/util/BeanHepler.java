@@ -1,9 +1,5 @@
-package com.opslab.helper;
+package com.wuwenxu.codecamp.util;
 
-import com.opslab.bean.BeanStruct;
-import com.opslab.util.CheckUtil;
-import com.opslab.util.algorithmImpl.BeanFactory;
-import com.opslab.functions.PropertyFilter;
 
 import java.beans.IntrospectionException;
 import java.lang.reflect.InvocationTargetException;

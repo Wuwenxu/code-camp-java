@@ -1,4 +1,4 @@
-package net.jerryfu.captchaCode;
+package com.wuwenxu.codecamp.util.captchaCode;
 
 import java.awt.Color;
 import java.awt.Font;

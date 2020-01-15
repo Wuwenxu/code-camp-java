@@ -1,4 +1,4 @@
-package com.wuwenxu.commons.apache;
+package com.wuwenxu.codecamp.util.commons.apache;
 
 import java.util.ArrayList;
 import java.util.Arrays;

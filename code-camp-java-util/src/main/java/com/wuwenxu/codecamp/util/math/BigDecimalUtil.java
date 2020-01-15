@@ -1,5 +1,5 @@
 
-package net.jerryfu.math;/*
+package com.wuwenxu.codecamp.util.math;/*
  * Copyright 2015-2102 RonCoo(http://www.roncoo.com) Group.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
