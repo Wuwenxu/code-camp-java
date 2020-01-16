@@ -10,7 +10,19 @@
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>code-camp-java-base</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<name>code-camp-java-base</name>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <name>code-camp-java-base</name>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
