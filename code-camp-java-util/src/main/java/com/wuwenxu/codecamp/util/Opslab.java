@@ -1,4 +1,4 @@
-package com.opslab;
+package com.wuwenxu.codecamp.util;
 
 /**
  * 一些常用的常量
