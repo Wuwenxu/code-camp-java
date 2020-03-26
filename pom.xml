@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-parent</artifactId>
-        <version>2.1.5.RELEASE</version>
+        <version>2.2.5.RELEASE</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.wuwenxu.codecamp</groupId>
@@ -18,7 +18,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <revision>1.0.1.0-SNAPSHOT</revision>
+        <revision>1.0-SNAPSHOT</revision>
         <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
         <feign-form.version>3.8.0</feign-form.version>
         <springboot.version>2.0.5.RELEASE</springboot.version>
@@ -63,7 +63,6 @@
         <commons-lang.version>2.6</commons-lang.version>
     </properties>
     <modules>
-        <module>code-camp-java-cloud</module>
         <module>code-camp-java-base</module>
         <module>code-camp-java-bigdata</module>
         <module>code-camp-java-util</module>
