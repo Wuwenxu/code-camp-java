@@ -23,7 +23,7 @@
         <feign-form.version>3.8.0</feign-form.version>
         <springboot.version>2.0.5.RELEASE</springboot.version>
         <fastjson.version>1.2.49</fastjson.version>
-        <fasterxml.version>2.9.7</fasterxml.version>
+        <fasterxml.version>2.11.0</fasterxml.version>
         <google-guava.version>26.0-jre</google-guava.version>
         <common-io.version>2.6</common-io.version>
         <common-text.version>1.5</common-text.version>
