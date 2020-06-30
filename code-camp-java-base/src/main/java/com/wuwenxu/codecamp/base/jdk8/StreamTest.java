@@ -1,4 +1,4 @@
-package com.wuwenxu.jdk8;
+package com.wuwenxu.codecamp.base.jdk8;
 
 import java.util.ArrayList;
 import java.util.Arrays;

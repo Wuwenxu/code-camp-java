@@ -8,4 +8,4 @@
  * @author pancm
  * @date 2017年10月26日
  */
-package com.wuwenxu.nio.netty.demo6;
+package com.wuwenxu.codecamp.base.nio.netty.demo6;

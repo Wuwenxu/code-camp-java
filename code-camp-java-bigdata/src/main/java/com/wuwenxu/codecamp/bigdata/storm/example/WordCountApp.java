@@ -1,4 +1,4 @@
-package com.wuwenxu.bigdata.storm.example;
+package com.wuwenxu.codecamp.bigdata.storm.example;
 
 import org.apache.storm.Config;
 import org.apache.storm.LocalCluster;

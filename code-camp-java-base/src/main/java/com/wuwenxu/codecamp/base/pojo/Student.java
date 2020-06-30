@@ -1,4 +1,4 @@
-package com.wuwenxu.pojo;
+package com.wuwenxu.codecamp.base.pojo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

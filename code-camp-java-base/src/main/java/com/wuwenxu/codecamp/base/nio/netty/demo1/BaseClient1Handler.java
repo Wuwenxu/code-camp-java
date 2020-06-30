@@ -1,4 +1,4 @@
-package com.wuwenxu.nio.netty.demo1;
+package com.wuwenxu.codecamp.base.nio.netty.demo1;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;

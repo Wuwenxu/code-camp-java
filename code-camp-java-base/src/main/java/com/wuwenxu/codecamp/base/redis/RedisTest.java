@@ -1,4 +1,4 @@
-package com.wuwenxu.redis;
+package com.wuwenxu.codecamp.base.redis;
 
 import java.util.Iterator;
 import java.util.List;

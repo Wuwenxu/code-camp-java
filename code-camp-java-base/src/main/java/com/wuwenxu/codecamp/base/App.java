@@ -1,4 +1,4 @@
-package com.wuwenxu;
+package com.wuwenxu.codecamp.base;
 
 /**
  * Hello world!

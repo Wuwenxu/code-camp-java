@@ -1,4 +1,4 @@
-package com.wuwenxu.question;
+package com.wuwenxu.codecamp.base.question;
 
 import java.util.BitSet;
 import java.util.concurrent.CountDownLatch;

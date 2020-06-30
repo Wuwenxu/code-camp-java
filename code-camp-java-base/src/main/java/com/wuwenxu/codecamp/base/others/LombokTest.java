@@ -1,4 +1,4 @@
-package com.wuwenxu.others;
+package com.wuwenxu.codecamp.base.others;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

@@ -1,4 +1,4 @@
-package com.wuwenxu.easticsearch;
+package com.wuwenxu.codecamp.base.easticsearch;
 
 
 import java.io.IOException;

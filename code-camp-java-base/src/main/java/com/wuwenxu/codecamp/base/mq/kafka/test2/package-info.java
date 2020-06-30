@@ -9,4 +9,4 @@
  * @author pancm
  * @date 2018年2月9日
  */
-package com.wuwenxu.mq.kafka.test2;
+package com.wuwenxu.codecamp.base.mq.kafka.test2;

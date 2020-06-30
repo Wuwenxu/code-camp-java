@@ -1,4 +1,4 @@
-package com.wuwenxu.bigdata.hbase;
+package com.wuwenxu.codecamp.bigdata.hadoop.hbase;
 
 import java.util.ArrayList;
 import java.util.List;

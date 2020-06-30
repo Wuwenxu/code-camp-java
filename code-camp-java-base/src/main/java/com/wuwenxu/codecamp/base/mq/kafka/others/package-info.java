@@ -8,4 +8,4 @@
  * @author pancm
  * @date 2017年12月29日
  */
-package com.wuwenxu.mq.kafka.others;
+package com.wuwenxu.codecamp.base.mq.kafka.others;

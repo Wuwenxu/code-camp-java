@@ -5,4 +5,4 @@
 * @author pancm
 * @date 2019年2月28日
 */
-package com.wuwenxu.easticsearch;
+package com.wuwenxu.codecamp.base.easticsearch;

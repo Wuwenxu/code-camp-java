@@ -1,4 +1,4 @@
-package com.wuwenxu.question;
+package com.wuwenxu.codecamp.base.question;
 
 /**
  * @Title: QuestionTest1

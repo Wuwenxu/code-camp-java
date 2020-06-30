@@ -1,4 +1,4 @@
-package com.wuwenxu.mq.kafka.test2;
+package com.wuwenxu.codecamp.base.mq.kafka.test2;
 
 import java.util.Properties;
 

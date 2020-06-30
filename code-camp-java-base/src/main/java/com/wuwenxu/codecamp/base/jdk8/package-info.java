@@ -9,4 +9,4 @@
 * @author pancm
 * @date 2018年5月14日
 */
-package com.wuwenxu.jdk8;
+package com.wuwenxu.codecamp.base.jdk8;

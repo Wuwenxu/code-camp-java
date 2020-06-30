@@ -1,4 +1,4 @@
-package com.wuwenxu.mq.rabbitmq.demo;
+package com.wuwenxu.codecamp.base.mq.rabbitmq.demo;
 
 import java.io.IOException;
 

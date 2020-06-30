@@ -1,4 +1,4 @@
-package com.wuwenxu.nio.netty.demo2;
+package com.wuwenxu.codecamp.base.nio.netty.demo2;
 
 import java.io.IOException;
 

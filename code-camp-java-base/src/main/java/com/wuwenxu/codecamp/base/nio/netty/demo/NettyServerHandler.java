@@ -1,4 +1,4 @@
-package com.wuwenxu.nio.netty.demo;
+package com.wuwenxu.codecamp.base.nio.netty.demo;
 
 import java.net.InetAddress;
 import java.util.Date;

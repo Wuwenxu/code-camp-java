@@ -1,4 +1,4 @@
-package com.wuwenxu.bigdata.hbase;
+package com.wuwenxu.codecamp.bigdata.hadoop.hbase;
 
 import java.io.IOException;
 import java.util.ArrayList;

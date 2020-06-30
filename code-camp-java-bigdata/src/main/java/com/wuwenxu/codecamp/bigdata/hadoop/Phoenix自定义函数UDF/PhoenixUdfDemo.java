@@ -1,4 +1,4 @@
-﻿package com.guoshuai.mtdap.UDFS;
+﻿package com.wuwenxu.codecamp.bigdata.hadoop.Phoenix自定义函数UDF;
 
 import org.apache.hadoop.hbase.io.ImmutableBytesWritable;
 import org.apache.phoenix.expression.Expression;

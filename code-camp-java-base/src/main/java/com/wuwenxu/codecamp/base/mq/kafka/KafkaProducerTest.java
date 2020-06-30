@@ -1,4 +1,4 @@
-package com.wuwenxu.mq.kafka;
+package com.wuwenxu.codecamp.base.mq.kafka;
 
 import java.util.Properties;
 

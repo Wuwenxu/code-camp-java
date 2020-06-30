@@ -1,15 +1,11 @@
-package com.wuwenxu.commons.apache;
+package com.wuwenxu.codecamp.base.commons.apache;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
-import org.apache.commons.collections.Bag;
-import org.apache.commons.collections.BidiMap;
-import org.apache.commons.collections.Factory;
-import org.apache.commons.collections.HashBag;
-import org.apache.commons.collections.bidimap.TreeBidiMap;
-import org.apache.commons.collections.list.LazyList;
+import org.apache.commons.collections4.Bag;
+import org.apache.commons.collections4.BidiMap;
+import org.apache.commons.collections4.bag.HashBag;
+import org.apache.commons.collections4.bidimap.TreeBidiMap;
 import org.apache.commons.lang.RandomStringUtils;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.WordUtils;
@@ -88,28 +84,7 @@ public class CommonsTest {
 		System.out.println("box.size():"+box.size());	//box.size():9
 		System.out.println("box.getCount():"+box.getCount("red"));//box.getCount():6
 	}
-	
-	/**
-	 * Lazy测试
-	 * 需要该元素的时候，才会生成
-	 */
-	@SuppressWarnings("unchecked")
-	private static void lazyTest(){
-		List<String> lazy=LazyList.decorate(new ArrayList<>(), new Factory() {
-			@Override
-			public Object create() {
-				return "Hello";
-			}
-		}); 
-		//访问了第三个元素，此时0和1位null
-		//get几就增加了几加一 ， 输出依旧是 Hello 
-		String str=lazy.get(2);
-		System.out.println("str:"+str);//str:Hello 
-		//加入的第四个元素
-		lazy.add("world");
-		//元素总个为4个
-		System.out.println("lazy.size():"+lazy.size());//lazy.size():4
-	}
+
 	
 	/**
 	 * 双向Map

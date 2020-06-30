@@ -1,4 +1,4 @@
-package com.wuwenxu.thread.annoations;
+package com.wuwenxu.codecamp.base.thread.annoations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

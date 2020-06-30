@@ -1,6 +1,6 @@
-package com.wuwenxu.nio.netty.demo5;
+package com.wuwenxu.codecamp.base.nio.netty.demo5;
 
-import com.wuwenxu.utils.MyTools;
+import com.wuwenxu.codecamp.base.utils.MyTools;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;

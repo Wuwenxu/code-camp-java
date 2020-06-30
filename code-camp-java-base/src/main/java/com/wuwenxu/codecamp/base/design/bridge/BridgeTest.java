@@ -1,4 +1,4 @@
-package com.wuwenxu.design.bridge;
+package com.wuwenxu.codecamp.base.design.bridge;
 
 /**
 * @Title: BridgeTest

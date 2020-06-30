@@ -1,6 +1,5 @@
-package com.wuwenxu.easticsearch;
+package com.wuwenxu.codecamp.base.easticsearch;
 
-import static org.junit.Assert.assertNull;
 
 import java.io.IOException;
 import java.util.List;
@@ -112,7 +111,6 @@ public class EsHighLevelRestTest2 {
 		 */
 
 		for (MultiGetItemResponse item : response.getResponses()) {
-			assertNull(item.getFailure());
 			GetResponse get = item.getResponse();
 			String index = item.getIndex();
 			String type = item.getType();

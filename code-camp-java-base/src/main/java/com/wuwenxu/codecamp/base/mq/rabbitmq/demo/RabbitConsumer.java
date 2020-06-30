@@ -1,9 +1,9 @@
-package com.wuwenxu.mq.rabbitmq.demo;
+package com.wuwenxu.codecamp.base.mq.rabbitmq.demo;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
-import com.rabbitmq.client.QueueingConsumer;
+import com.rabbitmq.client.DefaultConsumer;
 
 //消费者 
 public class RabbitConsumer {
@@ -21,15 +21,15 @@ public class RabbitConsumer {
 	    channel.queueDeclare(QUEUE_NAME, false, false, false, null);
 	    System.out.println(" [*] Waiting for messages. To exit press CTRL+C");
 	  // 创建队列消费者  
-	    QueueingConsumer consumer = new QueueingConsumer(channel);
+	  DefaultConsumer consumer = new DefaultConsumer(channel);
 	    // 指定消费队列
 	    channel.basicConsume(QUEUE_NAME, true, consumer);
 	    while (true) {  //消费者程序运行开着 如果生产者新增了数据会自动获取
 	      Thread.sleep(500);
 	    	 // nextDelivery是一个阻塞方法（内部实现其实是阻塞队列的take方法）  
-	      QueueingConsumer.Delivery delivery = consumer.nextDelivery();
-	      String message = new String(delivery.getBody());
-	      System.out.println("'[x] Received '" + message );
+//			DefaultConsumer.Delivery delivery = consumer.nextDelivery();
+//	      String message = new String(delivery.getBody());
+//	      System.out.println("'[x] Received '" + message );
   }   
   }
 }

@@ -1,4 +1,4 @@
-package com.wuwenxu.bigdata.storm.example;
+package com.wuwenxu.codecamp.bigdata.storm.example;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

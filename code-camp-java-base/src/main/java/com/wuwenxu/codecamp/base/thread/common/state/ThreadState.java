@@ -1,4 +1,4 @@
-package com.wuwenxu.thread.common.state;
+package com.wuwenxu.codecamp.base.thread.common.state;
 
 /**
  * 多线程运行状态切换示例

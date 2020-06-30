@@ -5,4 +5,4 @@
 * @author pancm
 * @date 2018年9月20日
 */
-package com.wuwenxu.commons;
+package com.wuwenxu.codecamp.base.commons;

@@ -8,4 +8,4 @@
  * @author pancm
  * @date 2017年11月7日
  */
-package com.wuwenxu.mq.rabbitmq;
+package com.wuwenxu.codecamp.base.mq.rabbitmq;

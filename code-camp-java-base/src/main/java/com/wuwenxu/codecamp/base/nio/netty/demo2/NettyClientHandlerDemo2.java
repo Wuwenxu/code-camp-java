@@ -1,4 +1,4 @@
-package com.wuwenxu.nio.netty.demo2;
+package com.wuwenxu.codecamp.base.nio.netty.demo2;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;

@@ -1,4 +1,4 @@
-package com.wuwenxu.mq.kafka.test3;
+package com.wuwenxu.codecamp.base.mq.kafka.test3;
 
 import java.util.Arrays;
 import java.util.Properties;

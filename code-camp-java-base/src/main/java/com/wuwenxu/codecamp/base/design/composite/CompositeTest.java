@@ -1,4 +1,4 @@
-package com.wuwenxu.design.composite;
+package com.wuwenxu.codecamp.base.design.composite;
 
 import java.util.ArrayList;
 import java.util.List;

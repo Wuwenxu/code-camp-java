@@ -1,4 +1,4 @@
-package com.wuwenxu.nio.netty.demo3;
+package com.wuwenxu.codecamp.base.nio.netty.demo3;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;

@@ -1,4 +1,4 @@
-package com.wuwenxu.mq.kafka.others;
+package com.wuwenxu.codecamp.base.mq.kafka.others;
 
 import java.util.Arrays;
 import java.util.Properties;

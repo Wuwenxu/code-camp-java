@@ -5,4 +5,4 @@
  * @author pancm
  * @date 2017年11月7日
  */
-package com.wuwenxu.pojo;
+package com.wuwenxu.codecamp.base.pojo;

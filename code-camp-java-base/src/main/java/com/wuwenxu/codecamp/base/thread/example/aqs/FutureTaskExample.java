@@ -1,4 +1,4 @@
-package com.wuwenxu.thread.example.aqs;
+package com.wuwenxu.codecamp.base.thread.example.aqs;
 
 import lombok.extern.slf4j.Slf4j;
 

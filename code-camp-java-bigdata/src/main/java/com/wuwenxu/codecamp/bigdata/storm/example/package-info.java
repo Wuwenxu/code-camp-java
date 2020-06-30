@@ -8,4 +8,4 @@
  * @author pancm
  * @date 2017年12月28日
  */
-package com.wuwenxu.bigdata.storm.example;
+package com.wuwenxu.codecamp.bigdata.storm.example;

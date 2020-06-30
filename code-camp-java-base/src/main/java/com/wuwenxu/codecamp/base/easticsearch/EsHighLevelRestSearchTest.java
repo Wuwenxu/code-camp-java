@@ -1,4 +1,4 @@
-package com.wuwenxu.sql.easticsearch;
+package com.wuwenxu.codecamp.base.easticsearch;
 
 import java.io.IOException;
 import java.util.List;
@@ -209,7 +209,7 @@ public class EsHighLevelRestSearchTest {
 		
 		SearchHits hits = searchResponse.getHits();
 		//总条数和分值
-		long totalHits = hits.getTotalHits();
+		long totalHits = hits.getTotalHits().value;
 		float maxScore = hits.getMaxScore();
 		
 	

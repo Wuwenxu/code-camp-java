@@ -5,4 +5,4 @@
 * @author pancm
 * @date 2018年9月21日
 */
-package com.wuwenxu.redis;
+package com.wuwenxu.codecamp.base.redis;

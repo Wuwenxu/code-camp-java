@@ -1,4 +1,4 @@
-package com.wuwenxu.code;
+package com.wuwenxu.codecamp.base.code;
 
 import java.util.HashMap;
 import java.util.Map;

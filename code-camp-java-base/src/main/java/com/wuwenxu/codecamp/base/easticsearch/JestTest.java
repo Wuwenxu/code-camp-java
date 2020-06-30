@@ -1,4 +1,4 @@
-package com.wuwenxu.sql.easticsearch;
+package com.wuwenxu.codecamp.base.easticsearch;
 
 import java.io.Serializable;
 import java.util.ArrayList;

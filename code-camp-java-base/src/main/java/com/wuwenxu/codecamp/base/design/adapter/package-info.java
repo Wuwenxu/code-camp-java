@@ -5,4 +5,4 @@
 * @author pancm
 * @date 2018年8月8日
 */
-package com.wuwenxu.design.adapter;
+package com.wuwenxu.codecamp.base.design.adapter;

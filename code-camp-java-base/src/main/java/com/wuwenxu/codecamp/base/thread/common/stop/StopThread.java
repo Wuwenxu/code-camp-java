@@ -1,4 +1,4 @@
-package com.wuwenxu.thread.common.stop;
+package com.wuwenxu.codecamp.base.thread.common.stop;
 
 /**
  * 线程stop强制性中止，破坏线程安全的示例

@@ -1,4 +1,4 @@
-package com.wuwenxu.design.adapter;
+package com.wuwenxu.codecamp.base.design.adapter;
 
 /**
 * @Title: AdapterTest

@@ -1,4 +1,4 @@
-package com.wuwenxu.utils;
+package com.wuwenxu.codecamp.base.utils;
 
 import java.math.BigInteger;
 import java.net.InetAddress;

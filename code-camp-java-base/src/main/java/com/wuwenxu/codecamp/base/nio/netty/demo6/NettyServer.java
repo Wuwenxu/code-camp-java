@@ -1,4 +1,4 @@
-package com.wuwenxu.nio.netty.demo6;
+package com.wuwenxu.codecamp.base.nio.netty.demo6;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;

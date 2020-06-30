@@ -1,4 +1,4 @@
-package com.wuwenxu.thread.common.stop;
+package com.wuwenxu.codecamp.base.thread.common.stop;
 
 
 

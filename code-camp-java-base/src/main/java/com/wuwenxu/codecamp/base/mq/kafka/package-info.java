@@ -5,4 +5,4 @@
  * @author pancm
  * @date 2018年1月11日
  */
-package com.wuwenxu.mq.kafka;
+package com.wuwenxu.codecamp.base.mq.kafka;

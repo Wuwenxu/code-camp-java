@@ -1,8 +1,8 @@
-package com.wuwenxu.pojo;
+package com.wuwenxu.codecamp.base.pojo;
 
 import java.util.Map;
 
-import com.wuwenxu.utils.MyTools;
+import com.wuwenxu.codecamp.base.utils.MyTools;
 
 /**
  * 

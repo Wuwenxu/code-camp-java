@@ -1,4 +1,4 @@
-package com.wuwenxu.bigdata.storm.example;
+package com.wuwenxu.codecamp.bigdata.storm.example;
 
 import java.util.HashMap;
 import java.util.Map;

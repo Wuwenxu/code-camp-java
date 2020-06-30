@@ -1,14 +1,14 @@
 /**
  * 
  */
-package com.wuwenxu.commons.google;
+package com.wuwenxu.codecamp.base.commons.google;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import com.google.common.base.Function;
 import com.google.common.collect.Lists;
-import com.wuwenxu.pojo.User;
+import com.wuwenxu.codecamp.base.pojo.User;
 
 /**
 * @Title: googleTest

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.wuwenxu.commons.apache;
+package com.wuwenxu.codecamp.base.commons.apache;
 
 import java.io.File;
 import java.io.FileInputStream;
