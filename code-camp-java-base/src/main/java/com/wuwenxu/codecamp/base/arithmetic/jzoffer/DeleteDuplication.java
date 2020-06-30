@@ -1,4 +1,4 @@
-package com.wuwenxu.arithmetic.jzoffer;
+package com.wuwenxu.codecamp.base.arithmetic.jzoffer;
 
 /**
  * 删除链表中重复的节点

@@ -1,4 +1,4 @@
-package com.wuwenxu.arithmetic.jzoffer;
+package com.wuwenxu.codecamp.base.arithmetic.jzoffer;
 
 /**
  * 数组中只出现一次的数字

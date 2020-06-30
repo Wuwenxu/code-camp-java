@@ -1,4 +1,4 @@
-package com.wuwenxu.arithmetic.jzoffer;
+package com.wuwenxu.codecamp.base.arithmetic.jzoffer;
 
 import java.util.ArrayList;
 import java.util.Stack;
@@ -37,11 +37,5 @@ public class PrintListFromTailToHead {
         return list;
     }
 }
-  class ListNode {
-        int val;
-        ListNode next = null;
-        ListNode(int val) {
-            this.val = val;
-        }
-    }
+
 

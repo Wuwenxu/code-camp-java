@@ -1,4 +1,4 @@
-package com.wuwenxu.arithmetic.jzoffer.LinkedList;
+package com.wuwenxu.codecamp.base.arithmetic.jzoffer.LinkedList;
 
 
 /**

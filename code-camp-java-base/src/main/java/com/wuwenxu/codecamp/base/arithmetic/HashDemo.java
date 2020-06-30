@@ -1,4 +1,4 @@
-package com.wuwenxu.arithmetic;
+package com.wuwenxu.codecamp.base.arithmetic;
 
 /**
  * 为了精简示例代码，所有参数都用 public

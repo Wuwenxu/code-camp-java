@@ -1,6 +1,7 @@
 package com.wuwenxu.codecamp.base.ftp;
 
-import com.wuwenxu.codecamp.util.Opslab;
+
+import com.wuwenxu.codecamp.base.Opslab;
 
 import java.util.HashMap;
 import java.util.Map;

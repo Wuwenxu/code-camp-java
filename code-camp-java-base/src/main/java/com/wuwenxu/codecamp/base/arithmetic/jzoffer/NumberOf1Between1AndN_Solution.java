@@ -1,4 +1,4 @@
-package com.wuwenxu.arithmetic.jzoffer;
+package com.wuwenxu.codecamp.base.arithmetic.jzoffer;
 
 /**
  * 整数中1出现的次数(从1到n整数中1出现的次数)

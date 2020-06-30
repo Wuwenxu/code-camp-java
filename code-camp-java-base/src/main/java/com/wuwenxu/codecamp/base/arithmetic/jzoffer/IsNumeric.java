@@ -1,4 +1,4 @@
-package com.wuwenxu.arithmetic.jzoffer;
+package com.wuwenxu.codecamp.base.arithmetic.jzoffer;
 
 /**
  * 表达数值的字符串

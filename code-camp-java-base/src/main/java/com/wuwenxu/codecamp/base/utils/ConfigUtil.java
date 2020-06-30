@@ -2,7 +2,7 @@ package com.wuwenxu.codecamp.base.utils;
 
 
 
-import com.wuwenxu.codecamp.base.helper.ClassHelper;
+import com.wuwenxu.codecamp.base.bean.ClassHelper;
 
 import java.io.File;
 import java.io.IOException;

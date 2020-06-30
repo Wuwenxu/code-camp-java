@@ -1,5 +1,7 @@
-package com.wuwenxu.arithmetic.jzoffer;
+package com.wuwenxu.codecamp.base.arithmetic.jzoffer;
 
+
+import com.wuwenxu.codecamp.base.arithmetic.TreeNode;
 
 import java.util.ArrayList;
 
@@ -12,7 +14,7 @@ import java.util.ArrayList;
 public class FindPath {
     ArrayList<ArrayList<Integer>> res = new ArrayList<>();
     ArrayList<Integer> path = new ArrayList<>();
-    public ArrayList<ArrayList<Integer>> FindPath(TreeNode root,int target) {
+    public ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
         if (root == null) {
             return res;
         }

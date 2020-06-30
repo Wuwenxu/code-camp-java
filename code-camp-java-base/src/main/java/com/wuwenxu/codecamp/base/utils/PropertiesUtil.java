@@ -13,7 +13,7 @@ import java.util.Properties;
 /**
  * 提供一些常用的属性文件相关的方法
  */
-public final class PropertiesUtil {
+public final class   PropertiesUtil {
     public static Logger logger = LoggerFactory.getLogger(PropertiesUtil.class);
 
     /**

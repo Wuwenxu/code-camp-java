@@ -1,8 +1,8 @@
 package com.wuwenxu.codecamp.base.ftp;
 
-import com.wuwenxu.codecamp.util.util.CheckUtil;
-import com.wuwenxu.codecamp.util.util.FileUtil;
-import com.wuwenxu.codecamp.util.util.JacksonUtil;
+import com.wuwenxu.codecamp.base.utils.CheckUtil;
+import com.wuwenxu.codecamp.base.file.FileUtil;
+import com.wuwenxu.codecamp.base.utils.JacksonUtil;
 import org.apache.commons.net.ftp.FTPClient;
 import org.apache.commons.net.ftp.FTPFile;
 import org.apache.commons.net.ftp.FTPReply;

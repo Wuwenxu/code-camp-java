@@ -1,6 +1,5 @@
 package com.wuwenxu.codecamp.base.utils;
 
-import com.wuwenxu.codecamp.base.utils.StringUtil;
 import com.wuwenxu.codecamp.util.Opslab;
 
 import java.io.ByteArrayOutputStream;

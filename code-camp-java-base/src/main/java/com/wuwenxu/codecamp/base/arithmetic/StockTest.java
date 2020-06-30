@@ -1,4 +1,4 @@
-package com.wuwenxu.arithmetic;
+package com.wuwenxu.codecamp.base.arithmetic;
 
 /**
 * @Title: StockTest

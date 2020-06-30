@@ -1,4 +1,4 @@
-package com.wuwenxu.arithmetic.jzoffer.Int;
+package com.wuwenxu.codecamp.base.arithmetic.jzoffer.Int;
 
 /**
  * 不用加减乘除做加法

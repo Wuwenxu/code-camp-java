@@ -1,4 +1,6 @@
-package com.wuwenxu.arithmetic.jzoffer;
+package com.wuwenxu.codecamp.base.arithmetic.jzoffer;
+
+import com.wuwenxu.codecamp.base.arithmetic.TreeNode;
 
 /**
  * 二叉树的深度

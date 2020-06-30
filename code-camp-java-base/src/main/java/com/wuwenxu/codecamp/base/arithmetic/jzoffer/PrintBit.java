@@ -1,4 +1,6 @@
-package com.wuwenxu.arithmetic.jzoffer;
+package com.wuwenxu.codecamp.base.arithmetic.jzoffer;
+
+import com.wuwenxu.codecamp.base.arithmetic.TreeNode;
 
 import java.util.ArrayList;
 
@@ -15,7 +17,7 @@ public class PrintBit {
         travel(pRoot,res,0);
         return res;
     }
-    public void travel(TreeNode cur,ArrayList<ArrayList<Integer>> res,int level){
+    public void travel(TreeNode cur, ArrayList<ArrayList<Integer>> res, int level){
         if(cur==null) return;
         if(res.size()<=level){
             ArrayList<Integer> newLevel = new ArrayList<Integer>();
