@@ -1,4 +1,4 @@
-package com.wuwenxu.nio.mina.demo;
+package com.wuwenxu.codecamp.base.nio.mina.demo;
 
 import java.net.InetSocketAddress;
 import java.util.Date;

@@ -1,6 +1,6 @@
-package com.wuwenxu.thread.example.publish;
+package com.wuwenxu.codecamp.base.thread.example.publish;
 
-import com.wuwenxu.thread.annoations.NotThreadSafe;
+import com.wuwenxu.codecamp.base.thread.annoations.NotThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.Arrays;

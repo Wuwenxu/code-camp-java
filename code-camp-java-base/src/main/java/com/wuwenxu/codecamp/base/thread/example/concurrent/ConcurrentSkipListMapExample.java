@@ -1,6 +1,6 @@
-package com.wuwenxu.thread.example.concurrent;
+package com.wuwenxu.codecamp.base.thread.example.concurrent;
 
-import com.wuwenxu.thread.annoations.ThreadSafe;
+import com.wuwenxu.codecamp.base.thread.annoations.ThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.Map;

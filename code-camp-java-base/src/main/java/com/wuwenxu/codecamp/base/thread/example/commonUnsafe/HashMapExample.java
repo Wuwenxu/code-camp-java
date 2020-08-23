@@ -1,6 +1,6 @@
-package com.wuwenxu.thread.example.commonUnsafe;
+package com.wuwenxu.codecamp.base.thread.example.commonUnsafe;
 
-import com.wuwenxu.thread.annoations.NotThreadSafe;
+import com.wuwenxu.codecamp.base.thread.annoations.NotThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.HashMap;

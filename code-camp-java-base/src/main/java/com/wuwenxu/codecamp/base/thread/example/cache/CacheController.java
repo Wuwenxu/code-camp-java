@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class CacheController {
 
     @Autowired
-    private com.wuwenxu.thread.example.cache.RedisClient redisClient;
+    private com.wuwenxu.codecamp.base.thread.example.cache.RedisClient redisClient;
 
     @RequestMapping("/set")
     @ResponseBody

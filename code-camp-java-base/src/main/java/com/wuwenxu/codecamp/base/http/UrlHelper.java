@@ -2,6 +2,7 @@ package com.wuwenxu.codecamp.base.http;
 
 
 import com.wuwenxu.codecamp.base.Opslab;
+import com.wuwenxu.codecamp.base.string.StringUtil;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.ByteArrayOutputStream;

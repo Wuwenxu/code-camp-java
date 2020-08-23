@@ -1,4 +1,4 @@
-package com.wuwenxu.nio.mina.demo1;
+package com.wuwenxu.codecamp.base.nio.mina.demo1;
 
 import java.nio.charset.Charset;
 

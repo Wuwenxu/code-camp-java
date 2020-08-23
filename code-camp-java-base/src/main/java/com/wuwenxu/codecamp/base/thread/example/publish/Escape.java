@@ -1,7 +1,7 @@
-package com.wuwenxu.thread.example.publish;
+package com.wuwenxu.codecamp.base.thread.example.publish;
 
-import com.wuwenxu.thread.annoations.NotRecommend;
-import com.wuwenxu.thread.annoations.NotThreadSafe;
+import com.wuwenxu.codecamp.base.thread.annoations.NotRecommend;
+import com.wuwenxu.codecamp.base.thread.annoations.NotThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

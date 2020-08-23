@@ -1,6 +1,6 @@
-package com.wuwenxu.thread.example.singleton;
+package com.wuwenxu.codecamp.base.thread.example.singleton;
 
-import com.wuwenxu.thread.annoations.NotThreadSafe;
+import com.wuwenxu.codecamp.base.thread.annoations.NotThreadSafe;
 
 /**
  * 懒汉模式 -》 双重同步锁单例模式

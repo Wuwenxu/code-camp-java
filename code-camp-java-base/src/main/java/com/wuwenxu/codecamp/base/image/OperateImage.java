@@ -1,6 +1,7 @@
 package com.wuwenxu.codecamp.base.image;
 
-import com.wuwenxu.codecamp.util.util.FileUtil;
+
+import com.wuwenxu.codecamp.base.file.FileUtil;
 
 import javax.imageio.ImageIO;
 import javax.imageio.ImageReadParam;

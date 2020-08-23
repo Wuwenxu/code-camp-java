@@ -1,4 +1,4 @@
-package com.wuwenxu.thread.example.syncContainer;
+package com.wuwenxu.codecamp.base.thread.example.syncContainer;
 
 import java.util.Iterator;
 import java.util.Vector;

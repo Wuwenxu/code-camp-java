@@ -45,14 +45,14 @@ public final class XmlUtils {
         DefaultHandler handler = new DefaultHandler() {
             private boolean foundElement = false;
             private StringBuilder buffer = new StringBuilder();
-
+            @Override
             public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
                 if (localName.equals(element)) {
                     this.foundElement = true;
                 }
 
             }
-
+            @Override
             public void endElement(String uri, String localName, String qName) throws SAXException {
                 if (localName.equals(element)) {
                     this.foundElement = false;
@@ -61,7 +61,7 @@ public final class XmlUtils {
                 }
 
             }
-
+            @Override
             public void characters(char[] ch, int start, int length) throws SAXException {
                 if (this.foundElement) {
                     this.buffer.append(ch, start, length);
@@ -86,21 +86,21 @@ public final class XmlUtils {
         final StringBuilder builder = new StringBuilder();
         DefaultHandler handler = new DefaultHandler() {
             private boolean foundElement = false;
-
+            @Override
             public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
                 if (localName.equals(element)) {
                     this.foundElement = true;
                 }
 
             }
-
+            @Override
             public void endElement(String uri, String localName, String qName) throws SAXException {
                 if (localName.equals(element)) {
                     this.foundElement = false;
                 }
 
             }
-
+            @Override
             public void characters(char[] ch, int start, int length) throws SAXException {
                 if (this.foundElement) {
                     builder.append(ch, start, length);

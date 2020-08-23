@@ -1,7 +1,7 @@
-package com.wuwenxu.thread.example.singleton;
+package com.wuwenxu.codecamp.base.thread.example.singleton;
 
-import com.wuwenxu.thread.annoations.Recommend;
-import com.wuwenxu.thread.annoations.ThreadSafe;
+import com.wuwenxu.codecamp.base.thread.annoations.Recommend;
+import com.wuwenxu.codecamp.base.thread.annoations.ThreadSafe;
 
 /**
  * 枚举模式：最安全

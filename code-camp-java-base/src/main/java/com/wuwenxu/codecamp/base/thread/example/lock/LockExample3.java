@@ -1,4 +1,4 @@
-package com.wuwenxu.thread.example.lock;
+package com.wuwenxu.codecamp.base.thread.example.lock;
 
 import lombok.extern.slf4j.Slf4j;
 

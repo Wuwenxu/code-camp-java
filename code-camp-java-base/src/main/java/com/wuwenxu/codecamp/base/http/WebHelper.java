@@ -1,6 +1,7 @@
 package com.wuwenxu.codecamp.base.http;
 
 import com.wuwenxu.codecamp.base.collection.ConvertHepler;
+import com.wuwenxu.codecamp.base.string.StringUtil;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;

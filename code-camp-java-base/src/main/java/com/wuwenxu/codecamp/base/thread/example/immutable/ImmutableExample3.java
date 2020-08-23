@@ -1,9 +1,9 @@
-package com.wuwenxu.thread.example.immutable;
+package com.wuwenxu.codecamp.base.thread.example.immutable;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.ImmutableSet;
-import com.wuwenxu.thread.annoations.ThreadSafe;
+import com.wuwenxu.codecamp.base.thread.annoations.ThreadSafe;
 
 @ThreadSafe
 public class ImmutableExample3 {

@@ -1,7 +1,7 @@
-package com.wuwenxu.thread.example.syncContainer;
+package com.wuwenxu.codecamp.base.thread.example.syncContainer;
 
 import com.google.common.collect.Lists;
-import com.wuwenxu.thread.annoations.ThreadSafe;
+import com.wuwenxu.codecamp.base.thread.annoations.ThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.Collections;

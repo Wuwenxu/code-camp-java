@@ -1,6 +1,6 @@
 package com.wuwenxu.codecamp.base.bean;
 
-import com.wuwenxu.codecamp.util.helper.StringHelper;
+import com.wuwenxu.codecamp.base.string.StringHelper;
 import lombok.Data;
 
 /**

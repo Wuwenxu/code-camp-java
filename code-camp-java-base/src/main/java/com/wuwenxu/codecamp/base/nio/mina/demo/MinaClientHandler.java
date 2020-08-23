@@ -1,4 +1,4 @@
-package com.wuwenxu.nio.mina.demo;
+package com.wuwenxu.codecamp.base.nio.mina.demo;
 
 import org.apache.log4j.Logger;
 import org.apache.mina.core.service.IoHandlerAdapter;

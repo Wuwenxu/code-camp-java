@@ -1,6 +1,6 @@
-package com.wuwenxu.thread.example.commonUnsafe;
+package com.wuwenxu.codecamp.base.thread.example.commonUnsafe;
 
-import com.wuwenxu.thread.annoations.ThreadSafe;
+import com.wuwenxu.codecamp.base.thread.annoations.ThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;

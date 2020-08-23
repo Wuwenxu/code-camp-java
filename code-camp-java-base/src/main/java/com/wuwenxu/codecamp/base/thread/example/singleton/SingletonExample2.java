@@ -1,6 +1,6 @@
-package com.wuwenxu.thread.example.singleton;
+package com.wuwenxu.codecamp.base.thread.example.singleton;
 
-import com.wuwenxu.thread.annoations.ThreadSafe;
+import com.wuwenxu.codecamp.base.thread.annoations.ThreadSafe;
 
 /**
  * 饿汉模式

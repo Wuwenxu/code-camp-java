@@ -1,4 +1,4 @@
-package com.wuwenxu.thread.example.lock;
+package com.wuwenxu.codecamp.base.thread.example.lock;
 
 import java.util.concurrent.locks.StampedLock;
 

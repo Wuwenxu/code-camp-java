@@ -1,7 +1,7 @@
-package com.wuwenxu.thread.example.immutable;
+package com.wuwenxu.codecamp.base.thread.example.immutable;
 
 import com.google.common.collect.Maps;
-import com.wuwenxu.thread.annoations.NotThreadSafe;
+import com.wuwenxu.codecamp.base.thread.annoations.NotThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.Map;

@@ -1,6 +1,6 @@
-package com.wuwenxu.thread.example.syncContainer;
+package com.wuwenxu.codecamp.base.thread.example.syncContainer;
 
-import com.wuwenxu.thread.annoations.NotThreadSafe;
+import com.wuwenxu.codecamp.base.thread.annoations.NotThreadSafe;
 
 import java.util.Vector;
 

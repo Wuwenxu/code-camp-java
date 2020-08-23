@@ -1,4 +1,4 @@
-package com.wuwenxu.thread.example.cache;
+package com.wuwenxu.codecamp.base.thread.example.cache;
 
 import org.springframework.stereotype.Component;
 import redis.clients.jedis.Jedis;
@@ -22,7 +22,7 @@ public class RedisClient {
             jedis.set(key, value);
         } finally {
             if (jedis != null) {
-                jedis.close();
+//                jedis.close();
             }
         }
     }
@@ -34,7 +34,7 @@ public class RedisClient {
             return jedis.get(key);
         } finally {
             if (jedis != null) {
-                jedis.close();
+//                jedis.close();
             }
         }
     }
